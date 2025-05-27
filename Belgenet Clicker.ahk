@@ -1,5 +1,6 @@
 ﻿#Requires AutoHotkey v2.0
 ; Define the first and second click positions pos1 := [757, 668] ; First position (X, Y) pos2 := [357, 499] ; Second position (X, Y)
+; For 1080p screens. For Different resolutions: run the script, right click the icon in the taskbar, pause it and use windowspy to find new positions
 pos1 := [800, 420]
 pos2 := [1770, 220]
 pos31 := [1581, 574]

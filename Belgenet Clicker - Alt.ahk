@@ -46,7 +46,30 @@ Sleep 100
 Click pos36[1], pos36[2]
 Sleep 100
 Click pos37[1], pos37[2]
+Sleep 100
 
+; Change folder code to be able to close the document
+Click pos4[1], pos4[2]
+Sleep 50
+; Change FOLDERCODE with whatever you want.
+Send "FOLDERCODE"
+Sleep 2000
+Click pos5[1], pos5[2]
+Sleep 1000
+; Try clicking close button again
+Click pos31[1], pos31[2]
+Sleep 100
+Click pos32[1], pos32[2]
+Sleep 100
+Click pos33[1], pos33[2]
+Sleep 100
+Click pos34[1], pos34[2]
+Sleep 100
+Click pos35[1], pos35[2]
+Sleep 100
+Click pos36[1], pos36[2]
+Sleep 100
+Click pos37[1], pos37[2]
 ; Wait for the specified delay before starting over
 Sleep 2000
 }
